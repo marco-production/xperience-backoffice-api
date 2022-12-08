@@ -1,0 +1,167 @@
+﻿[
+    {
+        "Id": 1,
+        "Name": "Others",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 2,
+        "Name": "Engineer",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 3,
+        "Name": "Lawyer",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 4,
+        "Name": "CEO",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 5,
+        "Name": "Entrepreneur",
+        "IsDeleted": 0
+    },
+    {
+        "Id": 6,
+        "Name": "Merchant",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 7,
+        "Name": "Analyst",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 12,
+        "Name": "Baker",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 13,
+        "Name": "Blacksmith",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 14,
+        "Name": "Carpenter",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 15,
+        "Name": "Electrician",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 16,
+        "Name": "Painter",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 17,
+        "Name": "Craftman",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 18,
+        "Name": "Shoemaker",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 19,
+        "Name": "Worker",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 20,
+        "Name": "Consultant",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 21,
+        "Name": "Graphic Designer",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 22,
+        "Name": "Journalist",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 23,
+        "Name": "Teacher",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 24,
+        "Name": "Doctor",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 25,
+        "Name": "Cashier",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 26,
+        "Name": "Salesman",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 27,
+        "Name": "Truck driver",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 28,
+        "Name": "Firefighter",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 29,
+        "Name": "Actor",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 30,
+        "Name": "Artist",
+        "IsDeleted": 1
+    },
+    {
+        "Id": 31,
+        "Name": "Public Employee",
+        "IsDeleted": 0
+    },
+    {
+        "Id": 32,
+        "Name": "Private Employee",
+        "IsDeleted": 0
+    },
+    {
+        "Id": 33,
+        "Name": "FreeLancer",
+        "IsDeleted": 0
+    },
+    {
+        "Id": 34,
+        "Name": "Student",
+        "IsDeleted": 0
+    },
+    {
+        "Id": 35,
+        "Name": "Retired",
+        "IsDeleted": 0
+    },
+    {
+        "Id": 36,
+        "Name": "Diplomatic",
+        "IsDeleted": 0
+    },
+    {
+        "Id": 37,
+        "Name": "Crew Member",
+        "IsDeleted": 0
+    }
+]

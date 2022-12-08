@@ -1,0 +1,1266 @@
+[
+  {
+    "GeoCode": "01010901000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 9,
+    "ToponomyName": "Moca",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "01010902000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 9,
+    "ToponomyName": "Cayetano Germosén",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "01010903000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 9,
+    "ToponomyName": "Gaspar Hernández",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "01010904000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 9,
+    "ToponomyName": "Jamao Al Norte",
+    "Municipalities": "04"
+  },
+  {
+    "GeoCode": "01010905000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 9,
+    "ToponomyName": "San Víctor ",
+    "Municipalities": "05"
+  },
+  {
+    "GeoCode": "01011801000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 18,
+    "ToponomyName": "Puerto Plata",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "01011802000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 18,
+    "ToponomyName": "Altamira",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "01011803000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 18,
+    "ToponomyName": "Guananico",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "01011804000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 18,
+    "ToponomyName": "Imbert",
+    "Municipalities": "04"
+  },
+  {
+    "GeoCode": "01011805000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 18,
+    "ToponomyName": "Los Hidalgos",
+    "Municipalities": "05"
+  },
+  {
+    "GeoCode": "01011806000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 18,
+    "ToponomyName": "Luperón",
+    "Municipalities": "06"
+  },
+  {
+    "GeoCode": "01011807000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 18,
+    "ToponomyName": "Sosúa",
+    "Municipalities": "07"
+  },
+  {
+    "GeoCode": "01011808000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 18,
+    "ToponomyName": "Villa Isabela",
+    "Municipalities": "08"
+  },
+  {
+    "GeoCode": "01011809000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 18,
+    "ToponomyName": "Villa Montellano",
+    "Municipalities": "09"
+  },
+  {
+    "GeoCode": "01012501000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 25,
+    "ToponomyName": "Santiago",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "01012502000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 25,
+    "ToponomyName": "Bisonó",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "01012503000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 25,
+    "ToponomyName": "Jánico",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "01012504000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 25,
+    "ToponomyName": "Licey al Medio",
+    "Municipalities": "04"
+  },
+  {
+    "GeoCode": "01012505000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 25,
+    "ToponomyName": "San José de Las Matas",
+    "Municipalities": "05"
+  },
+  {
+    "GeoCode": "01012506000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 25,
+    "ToponomyName": "Tamboril",
+    "Municipalities": "06"
+  },
+  {
+    "GeoCode": "01012507000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 25,
+    "ToponomyName": "Villa González",
+    "Municipalities": "07"
+  },
+  {
+    "GeoCode": "01012508000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 25,
+    "ToponomyName": "Puñal",
+    "Municipalities": "08"
+  },
+  {
+    "GeoCode": "01012509000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 25,
+    "ToponomyName": "Sabana Iglesia ",
+    "Municipalities": "09"
+  },
+  {
+    "GeoCode": "01012510000000000",
+    "MacroRegion": "01",
+    "Region": "01",
+    "ProvinceId": 25,
+    "ToponomyName": "Baitoa",
+    "Municipalities": "10"
+  },
+  {
+    "GeoCode": "01021301000000000",
+    "MacroRegion": "01",
+    "Region": "02",
+    "ProvinceId": 13,
+    "ToponomyName": "La Vega",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "01021302000000000",
+    "MacroRegion": "01",
+    "Region": "02",
+    "ProvinceId": 13,
+    "ToponomyName": "Constanza",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "01021303000000000",
+    "MacroRegion": "01",
+    "Region": "02",
+    "ProvinceId": 13,
+    "ToponomyName": "Jarabacoa",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "01021304000000000",
+    "MacroRegion": "01",
+    "Region": "02",
+    "ProvinceId": 13,
+    "ToponomyName": "Jima Abajo",
+    "Municipalities": "04"
+  },
+  {
+    "GeoCode": "01022401000000000",
+    "MacroRegion": "01",
+    "Region": "02",
+    "ProvinceId": 24,
+    "ToponomyName": "Cotuí",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "01022402000000000",
+    "MacroRegion": "01",
+    "Region": "02",
+    "ProvinceId": 24,
+    "ToponomyName": "Cevicos",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "01022403000000000",
+    "MacroRegion": "01",
+    "Region": "02",
+    "ProvinceId": 24,
+    "ToponomyName": "Fantino",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "01022404000000000",
+    "MacroRegion": "01",
+    "Region": "02",
+    "ProvinceId": 24,
+    "ToponomyName": "La Mata",
+    "Municipalities": "04"
+  },
+  {
+    "GeoCode": "01022801000000000",
+    "MacroRegion": "01",
+    "Region": "02",
+    "ProvinceId": 28,
+    "ToponomyName": "Bonao",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "01022802000000000",
+    "MacroRegion": "01",
+    "Region": "02",
+    "ProvinceId": 28,
+    "ToponomyName": "Maimón",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "01022803000000000",
+    "MacroRegion": "01",
+    "Region": "02",
+    "ProvinceId": 28,
+    "ToponomyName": "Piedra Blanca",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "01030601000000000",
+    "MacroRegion": "01",
+    "Region": "03",
+    "ProvinceId": 6,
+    "ToponomyName": "San Francisco de Macorís",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "01030602000000000",
+    "MacroRegion": "01",
+    "Region": "03",
+    "ProvinceId": 6,
+    "ToponomyName": "Arenoso",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "01030603000000000",
+    "MacroRegion": "01",
+    "Region": "03",
+    "ProvinceId": 6,
+    "ToponomyName": "Castillo",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "01030604000000000",
+    "MacroRegion": "01",
+    "Region": "03",
+    "ProvinceId": 6,
+    "ToponomyName": "Pimentel",
+    "Municipalities": "04"
+  },
+  {
+    "GeoCode": "01030605000000000",
+    "MacroRegion": "01",
+    "Region": "03",
+    "ProvinceId": 6,
+    "ToponomyName": "Villa Riva",
+    "Municipalities": "05"
+  },
+  {
+    "GeoCode": "01030606000000000",
+    "MacroRegion": "01",
+    "Region": "03",
+    "ProvinceId": 6,
+    "ToponomyName": "Las Guáranas",
+    "Municipalities": "06"
+  },
+  {
+    "GeoCode": "01030607000000000",
+    "MacroRegion": "01",
+    "Region": "03",
+    "ProvinceId": 6,
+    "ToponomyName": "Eugenio María de Hostos",
+    "Municipalities": "07"
+  },
+  {
+    "GeoCode": "01031401000000000",
+    "MacroRegion": "01",
+    "Region": "03",
+    "ProvinceId": 14,
+    "ToponomyName": "Nagua",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "01031402000000000",
+    "MacroRegion": "01",
+    "Region": "03",
+    "ProvinceId": 14,
+    "ToponomyName": "Cabrera",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "01031403000000000",
+    "MacroRegion": "01",
+    "Region": "03",
+    "ProvinceId": 14,
+    "ToponomyName": "El Factor",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "01031404000000000",
+    "MacroRegion": "01",
+    "Region": "03",
+    "ProvinceId": 14,
+    "ToponomyName": "Río San Juan",
+    "Municipalities": "04"
+  },
+  {
+    "GeoCode": "01031901000000000",
+    "MacroRegion": "01",
+    "Region": "03",
+    "ProvinceId": 19,
+    "ToponomyName": "Salcedo",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "01031902000000000",
+    "MacroRegion": "01",
+    "Region": "03",
+    "ProvinceId": 19,
+    "ToponomyName": "Tenares",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "01031903000000000",
+    "MacroRegion": "01",
+    "Region": "03",
+    "ProvinceId": 19,
+    "ToponomyName": "Villa Tapia",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "01032001000000000",
+    "MacroRegion": "01",
+    "Region": "03",
+    "ProvinceId": 20,
+    "ToponomyName": "Samaná",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "01032002000000000",
+    "MacroRegion": "01",
+    "Region": "03",
+    "ProvinceId": 20,
+    "ToponomyName": "Sánchez",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "01032003000000000",
+    "MacroRegion": "01",
+    "Region": "03",
+    "ProvinceId": 20,
+    "ToponomyName": "Las Terrenas",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "01040501000000000",
+    "MacroRegion": "01",
+    "Region": "04",
+    "ProvinceId": 5,
+    "ToponomyName": "Dajabón",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "01040502000000000",
+    "MacroRegion": "01",
+    "Region": "04",
+    "ProvinceId": 5,
+    "ToponomyName": "Loma de Cabrera",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "01040503000000000",
+    "MacroRegion": "01",
+    "Region": "04",
+    "ProvinceId": 5,
+    "ToponomyName": "Partido",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "01040504000000000",
+    "MacroRegion": "01",
+    "Region": "04",
+    "ProvinceId": 5,
+    "ToponomyName": "Restauración",
+    "Municipalities": "04"
+  },
+  {
+    "GeoCode": "01040505000000000",
+    "MacroRegion": "01",
+    "Region": "04",
+    "ProvinceId": 5,
+    "ToponomyName": "El Pino",
+    "Municipalities": "05"
+  },
+  {
+    "GeoCode": "01041501000000000",
+    "MacroRegion": "01",
+    "Region": "04",
+    "ProvinceId": 15,
+    "ToponomyName": "Monte Crísti",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "01041502000000000",
+    "MacroRegion": "01",
+    "Region": "04",
+    "ProvinceId": 15,
+    "ToponomyName": "Castañuelas",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "01041503000000000",
+    "MacroRegion": "01",
+    "Region": "04",
+    "ProvinceId": 15,
+    "ToponomyName": "Guayubín",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "01041504000000000",
+    "MacroRegion": "01",
+    "Region": "04",
+    "ProvinceId": 15,
+    "ToponomyName": "Las Matas de Santa Cruz",
+    "Municipalities": "04"
+  },
+  {
+    "GeoCode": "01041505000000000",
+    "MacroRegion": "01",
+    "Region": "04",
+    "ProvinceId": 15,
+    "ToponomyName": "Pepillo Salcedo",
+    "Municipalities": "05"
+  },
+  {
+    "GeoCode": "01041506000000000",
+    "MacroRegion": "01",
+    "Region": "04",
+    "ProvinceId": 15,
+    "ToponomyName": "Villa Vásquez",
+    "Municipalities": "06"
+  },
+  {
+    "GeoCode": "01042601000000000",
+    "MacroRegion": "01",
+    "Region": "04",
+    "ProvinceId": 26,
+    "ToponomyName": "San Ignacio de Sabaneta",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "01042602000000000",
+    "MacroRegion": "01",
+    "Region": "04",
+    "ProvinceId": 26,
+    "ToponomyName": "Villa Los Almácigos",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "01042603000000000",
+    "MacroRegion": "01",
+    "Region": "04",
+    "ProvinceId": 26,
+    "ToponomyName": "Monción",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "01042701000000000",
+    "MacroRegion": "01",
+    "Region": "04",
+    "ProvinceId": 27,
+    "ToponomyName": "Mao",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "01042702000000000",
+    "MacroRegion": "01",
+    "Region": "04",
+    "ProvinceId": 27,
+    "ToponomyName": "Esperanza",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "01042703000000000",
+    "MacroRegion": "01",
+    "Region": "04",
+    "ProvinceId": 27,
+    "ToponomyName": "Laguna Salada",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "02050201000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 2,
+    "ToponomyName": "Azua",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "02050202000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 2,
+    "ToponomyName": "Las Charcas",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "02050203000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 2,
+    "ToponomyName": "Las Yayas de Viajama",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "02050204000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 2,
+    "ToponomyName": "Padre Las Casas",
+    "Municipalities": "04"
+  },
+  {
+    "GeoCode": "02050205000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 2,
+    "ToponomyName": "Peralta",
+    "Municipalities": "05"
+  },
+  {
+    "GeoCode": "02050206000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 2,
+    "ToponomyName": "Sabana Yegua",
+    "Municipalities": "06"
+  },
+  {
+    "GeoCode": "02050207000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 2,
+    "ToponomyName": "Pueblo Viejo",
+    "Municipalities": "07"
+  },
+  {
+    "GeoCode": "02050208000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 2,
+    "ToponomyName": "Tábara Arriba",
+    "Municipalities": "08"
+  },
+  {
+    "GeoCode": "02050209000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 2,
+    "ToponomyName": "Guayabal",
+    "Municipalities": "09"
+  },
+  {
+    "GeoCode": "02050210000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 2,
+    "ToponomyName": "Estebanía",
+    "Municipalities": "10"
+  },
+  {
+    "GeoCode": "02051701000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 17,
+    "ToponomyName": "Baní",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "02051702000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 17,
+    "ToponomyName": "Nizao",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "02051703000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 17,
+    "ToponomyName": "Matanzas",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "02052101000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 21,
+    "ToponomyName": "San Cristóbal",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "02052102000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 21,
+    "ToponomyName": "Sabana Grande de Palenque",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "02052103000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 21,
+    "ToponomyName": "Bajos de Haina",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "02052104000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 21,
+    "ToponomyName": "Cambita Garabitos",
+    "Municipalities": "04"
+  },
+  {
+    "GeoCode": "02052105000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 21,
+    "ToponomyName": "Villa Altagracia",
+    "Municipalities": "05"
+  },
+  {
+    "GeoCode": "02052106000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 21,
+    "ToponomyName": "Yaguate",
+    "Municipalities": "06"
+  },
+  {
+    "GeoCode": "02052107000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 21,
+    "ToponomyName": "San Gregorio de Nigua",
+    "Municipalities": "07"
+  },
+  {
+    "GeoCode": "02052108000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 21,
+    "ToponomyName": "Los Cacaos",
+    "Municipalities": "08"
+  },
+  {
+    "GeoCode": "02053101000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 31,
+    "ToponomyName": "San José de Ocoa",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "02053102000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 31,
+    "ToponomyName": "Sabana Larga",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "02053103000000000",
+    "MacroRegion": "02",
+    "Region": "05",
+    "ProvinceId": 31,
+    "ToponomyName": "Rancho Arriba",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "02060301000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 3,
+    "ToponomyName": "Neiba",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "02060302000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 3,
+    "ToponomyName": "Galván",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "02060303000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 3,
+    "ToponomyName": "Tamayo",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "02060304000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 3,
+    "ToponomyName": "Villa Jaragua",
+    "Municipalities": "04"
+  },
+  {
+    "GeoCode": "02060305000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 3,
+    "ToponomyName": "Los Ríos",
+    "Municipalities": "05"
+  },
+  {
+    "GeoCode": "02060401000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 4,
+    "ToponomyName": "Barahona",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "02060402000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 4,
+    "ToponomyName": "Cabral",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "02060403000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 4,
+    "ToponomyName": "Enriquillo",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "02060404000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 4,
+    "ToponomyName": "Paraíso",
+    "Municipalities": "04"
+  },
+  {
+    "GeoCode": "02060405000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 4,
+    "ToponomyName": "Vicente Noble",
+    "Municipalities": "05"
+  },
+  {
+    "GeoCode": "02060406000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 4,
+    "ToponomyName": "El Peñón",
+    "Municipalities": "06"
+  },
+  {
+    "GeoCode": "02060407000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 4,
+    "ToponomyName": "La Ciénaga",
+    "Municipalities": "07"
+  },
+  {
+    "GeoCode": "02060408000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 4,
+    "ToponomyName": "Fundación",
+    "Municipalities": "08"
+  },
+  {
+    "GeoCode": "02060409000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 4,
+    "ToponomyName": "Las Salinas",
+    "Municipalities": "09"
+  },
+  {
+    "GeoCode": "02060410000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 4,
+    "ToponomyName": "Polo",
+    "Municipalities": "10"
+  },
+  {
+    "GeoCode": "02060411000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 4,
+    "ToponomyName": "Jaquimeyes",
+    "Municipalities": "11"
+  },
+  {
+    "GeoCode": "02061001000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 10,
+    "ToponomyName": "Jimaní",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "02061002000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 10,
+    "ToponomyName": "Duvergé",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "02061003000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 10,
+    "ToponomyName": "La Descubierta",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "02061004000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 10,
+    "ToponomyName": "Postrer Río",
+    "Municipalities": "04"
+  },
+  {
+    "GeoCode": "02061005000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 10,
+    "ToponomyName": "Cristóbal",
+    "Municipalities": "05"
+  },
+  {
+    "GeoCode": "02061006000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 10,
+    "ToponomyName": "Mella",
+    "Municipalities": "06"
+  },
+  {
+    "GeoCode": "02061601000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 16,
+    "ToponomyName": "Pedernales",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "02061602000000000",
+    "MacroRegion": "02",
+    "Region": "06",
+    "ProvinceId": 16,
+    "ToponomyName": "Oviedo",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "02070701000000000",
+    "MacroRegion": "02",
+    "Region": "07",
+    "ProvinceId": 7,
+    "ToponomyName": "Comendador",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "02070702000000000",
+    "MacroRegion": "02",
+    "Region": "07",
+    "ProvinceId": 7,
+    "ToponomyName": "Bánica",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "02070703000000000",
+    "MacroRegion": "02",
+    "Region": "07",
+    "ProvinceId": 7,
+    "ToponomyName": "El Llano",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "02070704000000000",
+    "MacroRegion": "02",
+    "Region": "07",
+    "ProvinceId": 7,
+    "ToponomyName": "Hondo Valle",
+    "Municipalities": "04"
+  },
+  {
+    "GeoCode": "02070705000000000",
+    "MacroRegion": "02",
+    "Region": "07",
+    "ProvinceId": 7,
+    "ToponomyName": "Pedro Santana",
+    "Municipalities": "05"
+  },
+  {
+    "GeoCode": "02070706000000000",
+    "MacroRegion": "02",
+    "Region": "07",
+    "ProvinceId": 7,
+    "ToponomyName": "Juan Santiago",
+    "Municipalities": "06"
+  },
+  {
+    "GeoCode": "02072201000000000",
+    "MacroRegion": "02",
+    "Region": "07",
+    "ProvinceId": 22,
+    "ToponomyName": "San Juan",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "02072202000000000",
+    "MacroRegion": "02",
+    "Region": "07",
+    "ProvinceId": 22,
+    "ToponomyName": "Bohechío",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "02072203000000000",
+    "MacroRegion": "02",
+    "Region": "07",
+    "ProvinceId": 22,
+    "ToponomyName": "El Cercado",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "02072204000000000",
+    "MacroRegion": "02",
+    "Region": "07",
+    "ProvinceId": 22,
+    "ToponomyName": "Juan de Herrera",
+    "Municipalities": "04"
+  },
+  {
+    "GeoCode": "02072205000000000",
+    "MacroRegion": "02",
+    "Region": "07",
+    "ProvinceId": 22,
+    "ToponomyName": "Las Matas de Farfán",
+    "Municipalities": "05"
+  },
+  {
+    "GeoCode": "02072206000000000",
+    "MacroRegion": "02",
+    "Region": "07",
+    "ProvinceId": 22,
+    "ToponomyName": "Vallejuelo",
+    "Municipalities": "06"
+  },
+  {
+    "GeoCode": "03080801000000000",
+    "MacroRegion": "03",
+    "Region": "08",
+    "ProvinceId": 8,
+    "ToponomyName": "El Seibo",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "03080802000000000",
+    "MacroRegion": "03",
+    "Region": "08",
+    "ProvinceId": 8,
+    "ToponomyName": "Miches",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "03081101000000000",
+    "MacroRegion": "03",
+    "Region": "08",
+    "ProvinceId": 11,
+    "ToponomyName": "Higüey",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "03081102000000000",
+    "MacroRegion": "03",
+    "Region": "08",
+    "ProvinceId": 11,
+    "ToponomyName": "San Rafael del Yuma",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "03081201000000000",
+    "MacroRegion": "03",
+    "Region": "08",
+    "ProvinceId": 12,
+    "ToponomyName": "La Romana",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "03081202000000000",
+    "MacroRegion": "03",
+    "Region": "08",
+    "ProvinceId": 12,
+    "ToponomyName": "Guaymate",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "03081203000000000",
+    "MacroRegion": "03",
+    "Region": "08",
+    "ProvinceId": 12,
+    "ToponomyName": "Villa Hermosa",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "03092301000000000",
+    "MacroRegion": "03",
+    "Region": "09",
+    "ProvinceId": 23,
+    "ToponomyName": "San Pedro de Macorís",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "03092302000000000",
+    "MacroRegion": "03",
+    "Region": "09",
+    "ProvinceId": 23,
+    "ToponomyName": "Los Llanos",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "03092303000000000",
+    "MacroRegion": "03",
+    "Region": "09",
+    "ProvinceId": 23,
+    "ToponomyName": "Ramón Santana",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "03092304000000000",
+    "MacroRegion": "03",
+    "Region": "09",
+    "ProvinceId": 23,
+    "ToponomyName": "Consuelo",
+    "Municipalities": "04"
+  },
+  {
+    "GeoCode": "03092305000000000",
+    "MacroRegion": "03",
+    "Region": "09",
+    "ProvinceId": 23,
+    "ToponomyName": "Quisqueya",
+    "Municipalities": "05"
+  },
+  {
+    "GeoCode": "03092306000000000",
+    "MacroRegion": "03",
+    "Region": "09",
+    "ProvinceId": 23,
+    "ToponomyName": "Guayacanes",
+    "Municipalities": "06"
+  },
+  {
+    "GeoCode": "03092901000000000",
+    "MacroRegion": "03",
+    "Region": "09",
+    "ProvinceId": 29,
+    "ToponomyName": "Monte Plata",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "03092902000000000",
+    "MacroRegion": "03",
+    "Region": "09",
+    "ProvinceId": 29,
+    "ToponomyName": "Bayaguana",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "03092903000000000",
+    "MacroRegion": "03",
+    "Region": "09",
+    "ProvinceId": 29,
+    "ToponomyName": "Sabana Grande de Boyá",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "03092904000000000",
+    "MacroRegion": "03",
+    "Region": "09",
+    "ProvinceId": 29,
+    "ToponomyName": "Yamasá",
+    "Municipalities": "04"
+  },
+  {
+    "GeoCode": "03092905000000000",
+    "MacroRegion": "03",
+    "Region": "09",
+    "ProvinceId": 29,
+    "ToponomyName": "Peralvillo",
+    "Municipalities": "05"
+  },
+  {
+    "GeoCode": "03093001000000000",
+    "MacroRegion": "03",
+    "Region": "09",
+    "ProvinceId": 30,
+    "ToponomyName": "Hato Mayor",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "03093002000000000",
+    "MacroRegion": "03",
+    "Region": "09",
+    "ProvinceId": 30,
+    "ToponomyName": "Sabana de La Mar",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "03093003000000000",
+    "MacroRegion": "03",
+    "Region": "09",
+    "ProvinceId": 30,
+    "ToponomyName": "El Valle",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "03100101000000000",
+    "MacroRegion": "03",
+    "Region": "10",
+    "ProvinceId": 1,
+    "ToponomyName": "Santo Domingo de Guzmán",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "03103201000000000",
+    "MacroRegion": "03",
+    "Region": "10",
+    "ProvinceId": 32,
+    "ToponomyName": "Santo Domingo Este",
+    "Municipalities": "01"
+  },
+  {
+    "GeoCode": "03103202000000000",
+    "MacroRegion": "03",
+    "Region": "10",
+    "ProvinceId": 32,
+    "ToponomyName": "Santo Domingo Oeste",
+    "Municipalities": "02"
+  },
+  {
+    "GeoCode": "03103203000000000",
+    "MacroRegion": "03",
+    "Region": "10",
+    "ProvinceId": 32,
+    "ToponomyName": "Santo Domingo Norte",
+    "Municipalities": "03"
+  },
+  {
+    "GeoCode": "03103204000000000",
+    "MacroRegion": "03",
+    "Region": "10",
+    "ProvinceId": 32,
+    "ToponomyName": "Boca Chica",
+    "Municipalities": "04"
+  },
+  {
+    "GeoCode": "03103205000000000",
+    "MacroRegion": "03",
+    "Region": "10",
+    "ProvinceId": 32,
+    "ToponomyName": "San Antonio de Guerra",
+    "Municipalities": "05"
+  },
+  {
+    "GeoCode": "03103206000000000",
+    "MacroRegion": "03",
+    "Region": "10",
+    "ProvinceId": 32,
+    "ToponomyName": "Los Alcarrizos",
+    "Municipalities": "06"
+  },
+  {
+    "GeoCode": "03103207000000000",
+    "MacroRegion": "03",
+    "Region": "10",
+    "ProvinceId": 32,
+    "ToponomyName": "Pedro Brand",
+    "Municipalities": "07"
+  }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "code": "GBP",
+        "name": "Libra esterlina"
+    },
+    {
+        "code": "BRL",
+        "name": "Real brasileño"
+    },
+    {
+        "code": "JPY",
+        "name": "Yen japonés"
+    },
+    {
+        "code": "CAD",
+        "name": "Dólar canadiense"
+    },
+    {
+        "code": "NZD",
+        "name": "Dólar neozelandés"
+    },
+    {
+        "code": "EUR",
+        "name": "Euro"
+    },
+    {
+        "code": "USD",
+        "name": "Dólar estadounidense"
+    },
+    {
+        "code": "CNY",
+        "name": "Renminbi"
+    },
+    {
+        "code": "DKK",
+        "name": "Corona danesa"
+    },
+    {
+        "code": "NOK",
+        "name": "Corona noruega"
+    },
+    {
+        "code": "SEK",
+        "name": "Corona sueca"
+    },
+    {
+        "code": "CHF",
+        "name": "Franco suizo"
+    },
+    {
+        "code": "VEF",
+        "name": "Bolívar"
+    }
+]

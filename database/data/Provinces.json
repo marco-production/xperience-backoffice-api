@@ -1,0 +1,226 @@
+[
+  {
+    "Id": 1,
+    "GeoCode": "03100100000000000",
+    "MacroRegion": 3,
+    "Region": "10",
+    "ToponomyName": "Distrito Nacional"
+  },
+  {
+    "Id": 2,
+    "GeoCode": "02050200000000000",
+    "MacroRegion": 2,
+    "Region": "05",
+    "ToponomyName": "Azua"
+  },
+  {
+    "Id": 3,
+    "GeoCode": "02060300000000000",
+    "MacroRegion": 2,
+    "Region": "06",
+    "ToponomyName": "Bahoruco"
+  },
+  {
+    "Id": 4,
+    "GeoCode": "02060400000000000",
+    "MacroRegion": 2,
+    "Region": "06",
+    "ToponomyName": "Barahona"
+  },
+  {
+    "Id": 5,
+    "GeoCode": "01040500000000000",
+    "MacroRegion": 1,
+    "Region": "04",
+    "ToponomyName": "Dajabón"
+  },
+  {
+    "Id": 6,
+    "GeoCode": "01030600000000000",
+    "MacroRegion": 1,
+    "Region": "03",
+    "ToponomyName": "Duarte"
+  },
+  {
+    "Id": 7,
+    "GeoCode": "02070700000000000",
+    "MacroRegion": 2,
+    "Region": "07",
+    "ToponomyName": "Elías Piña"
+  },
+  {
+    "Id": 8,
+    "GeoCode": "03080800000000000",
+    "MacroRegion": 3,
+    "Region": "08",
+    "ToponomyName": "El Seibo"
+  },
+  {
+    "Id": 9,
+    "GeoCode": "01010900000000000",
+    "MacroRegion": 1,
+    "Region": "01",
+    "ToponomyName": "Espaillat"
+  },
+  {
+    "Id": 10,
+    "GeoCode": "02061000000000000",
+    "MacroRegion": 2,
+    "Region": "06",
+    "ToponomyName": "Independencia"
+  },
+  {
+    "Id": 11,
+    "GeoCode": "03081100000000000",
+    "MacroRegion": 3,
+    "Region": "08",
+    "ToponomyName": "La Altagracia"
+  },
+  {
+    "Id": 12,
+    "GeoCode": "03081200000000000",
+    "MacroRegion": 3,
+    "Region": "08",
+    "ToponomyName": "La Romana"
+  },
+  {
+    "Id": 13,
+    "GeoCode": "01021300000000000",
+    "MacroRegion": 1,
+    "Region": "02",
+    "ToponomyName": "La Vega"
+  },
+  {
+    "Id": 14,
+    "GeoCode": "01031400000000000",
+    "MacroRegion": 1,
+    "Region": "03",
+    "ToponomyName": "María TrinIdad Sánchez"
+  },
+  {
+    "Id": 15,
+    "GeoCode": "01041500000000000",
+    "MacroRegion": 1,
+    "Region": "04",
+    "ToponomyName": "Monte Crísti"
+  },
+  {
+    "Id": 16,
+    "GeoCode": "02061600000000000",
+    "MacroRegion": 2,
+    "Region": "06",
+    "ToponomyName": "Pedernales"
+  },
+  {
+    "Id": 17,
+    "GeoCode": "02051700000000000",
+    "MacroRegion": 2,
+    "Region": "05",
+    "ToponomyName": "Peravia"
+  },
+  {
+    "Id": 18,
+    "GeoCode": "01011800000000000",
+    "MacroRegion": 1,
+    "Region": "01",
+    "ToponomyName": "Puerto Plata"
+  },
+  {
+    "Id": 19,
+    "GeoCode": "01031900000000000",
+    "MacroRegion": 1,
+    "Region": "03",
+    "ToponomyName": "Hermanas Mirabal"
+  },
+  {
+    "Id": 20,
+    "GeoCode": "01032000000000000",
+    "MacroRegion": 1,
+    "Region": "03",
+    "ToponomyName": "Samaná"
+  },
+  {
+    "Id": 21,
+    "GeoCode": "02052100000000000",
+    "MacroRegion": 2,
+    "Region": "05",
+    "ToponomyName": "San Cristóbal"
+  },
+  {
+    "Id": 22,
+    "GeoCode": "02072200000000000",
+    "MacroRegion": 2,
+    "Region": "07",
+    "ToponomyName": "San Juan"
+  },
+  {
+    "Id": 23,
+    "GeoCode": "03092300000000000",
+    "MacroRegion": 3,
+    "Region": "09",
+    "ToponomyName": "San Pedro de Macorís"
+  },
+  {
+    "Id": 24,
+    "GeoCode": "01022400000000000",
+    "MacroRegion": 1,
+    "Region": "02",
+    "ToponomyName": "Sanchez Ramírez"
+  },
+  {
+    "Id": 25,
+    "GeoCode": "01012500000000000",
+    "MacroRegion": 1,
+    "Region": "01",
+    "ToponomyName": "Santiago"
+  },
+  {
+    "Id": 26,
+    "GeoCode": "01042600000000000",
+    "MacroRegion": 1,
+    "Region": "04",
+    "ToponomyName": "Santiago Rodríguez"
+  },
+  {
+    "Id": 27,
+    "GeoCode": "01042700000000000",
+    "MacroRegion": 1,
+    "Region": "04",
+    "ToponomyName": "Valverde"
+  },
+  {
+    "Id": 28,
+    "GeoCode": "01022800000000000",
+    "MacroRegion": 1,
+    "Region": "02",
+    "ToponomyName": "Monseñor Nouel"
+  },
+  {
+    "Id": 29,
+    "GeoCode": "03092900000000000",
+    "MacroRegion": 3,
+    "Region": "09",
+    "ToponomyName": "Monte Plata"
+  },
+  {
+    "Id": 30,
+    "GeoCode": "03093000000000000",
+    "MacroRegion": 3,
+    "Region": "09",
+    "ToponomyName": "Hato Mayor"
+  },
+  {
+    "Id": 31,
+    "GeoCode": "02053100000000000",
+    "MacroRegion": 2,
+    "Region": "05",
+    "ToponomyName": "San José de Ocoa"
+  },
+  {
+    "Id": 32,
+    "GeoCode": "03103200000000000",
+    "MacroRegion": 3,
+    "Region": "10",
+    "ToponomyName": "Santo Domingo"
+  }
+]
