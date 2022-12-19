@@ -36,9 +36,7 @@ class Country extends Model
      * @var array<int, string>
      */
     protected $hidden = [
-        'iso3',
         'zoom',
-        'enabled'
     ];
 
     /**

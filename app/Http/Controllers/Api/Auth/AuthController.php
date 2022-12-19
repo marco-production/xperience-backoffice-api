@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Api\Auth;
 
 use App\Models\User;
+use Spatie\Permission\Models\Role;
+use Spatie\Permission\Models\Permission;
 use App\Models\UserEntities\ForgotPassword;
 use App\Models\UserEntities\EmailVerification;
 use App\Http\Controllers\Api\GeolocationController;
@@ -40,7 +42,7 @@ class AuthController extends Controller
             'locale' => 'nullable|string|min:2|max:2'
         ]);
 
-        if($validator->fails()) return response(['errors' => $validator->errors()->all()], 422);
+        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 422);
 
         $auth = User::withTrashed()->firstWhere('email', $request->email);
 
@@ -57,9 +59,18 @@ class AuthController extends Controller
                 }
 
                 // Verify if the user have the necessary roles to login
-                if($auth->hasAnyRole(['User', 'Admin', 'Super Admin'])){
+                $rolesToLogin = Role::whereNotIn('id', [3, 4])->pluck('name');
+
+                if($auth->hasAnyRole(json_decode($rolesToLogin))){
+
+                    // Get permissions name
+                    $permissions = Permission::withWhereHas('roles', function($query) {
+                        $query->whereIn('id', [2, 3]);
+                    })->pluck('name');
+
                     $auth->country;
                     $auth['roles'] = $auth->getRoleNames();
+                    $auth['permissions'] = $permissions;
                     $auth->makeHidden(['created_at', 'updated_at']);
                     
                     // If the user isn't verified don't return token
@@ -124,7 +135,7 @@ class AuthController extends Controller
             'locale' => 'nullable|string|min:2|max:2'
         ]);
 
-        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 400);
+        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 422);
         
         $user = User::withTrashed()->firstWhere('email', $request->email);
         $locale = $request->has('locale') && in_array($request->locale, $this->locales) ? $request->locale : 'en';
@@ -147,7 +158,7 @@ class AuthController extends Controller
             $forgotPassword->update(['expire_at' => $forgotPassword->created_at->addDays(2)]);
 
             Mail::to($request->email)->send(new ForgotPasswordMail($forgotPassword->code, $locale));
-            return response(['message' => 'Password recovery email sent successfully.'], 200);
+            return response()->json(['message' => 'Password recovery email sent successfully.'], 200);
 
         } catch(\Exception $e) {
             return response()->json(['errors' => $e], 500);
@@ -167,7 +178,7 @@ class AuthController extends Controller
             'code' => 'required|integer',
         ]);
 
-        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 400);
+        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 422);
 
         $user = User::withTrashed()->where('email', $request->email)->firstOrFail();
         $forgotPassword = ForgotPassword::where('user_id', $user->id)->where('code', $request->code)->first();
@@ -180,7 +191,7 @@ class AuthController extends Controller
             }
             return response()->json(['errors' => 'The code has expired, request a new code.'], 400);
         }
-        return response()->json(['errors' => 'The code you entered does not match your code. Retry.'], 400);
+        return response()->json(['errors' => 'The code you entered does not match your code, Retry.'], 400);
     }
 
     /**
@@ -196,7 +207,7 @@ class AuthController extends Controller
             'password' => 'required|string|min:6|confirmed',
         ]);
 
-        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 400);
+        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 422);
 
         $user = User::withTrashed()->where('email', $request->email)->firstOrFail();
         $forgotPassword = ForgotPassword::where('user_id', $user->id)->where('is_verified', true)->first();
@@ -234,7 +245,7 @@ class AuthController extends Controller
             'locale' => 'nullable|string|min:2|max:2'
         ]);
 
-        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 400);
+        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 422);
 
         $user = User::firstWhere('email', $request->email);
         $locale = $request->has('locale') && in_array($request->locale, $this->locales) ? $request->locale : 'en';
@@ -274,7 +285,7 @@ class AuthController extends Controller
             'phone_number' => 'required|string',
         ]);
 
-        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 400);
+        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 422);
 
         //Verify if exists this User
         $user = User::firstWhere('email', $request->email);
@@ -311,7 +322,7 @@ class AuthController extends Controller
             'verification_type' => 'required|string|in:email,sms'
         ]);
 
-        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 400);
+        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 422);
 
         $phoneNumber = null;
 

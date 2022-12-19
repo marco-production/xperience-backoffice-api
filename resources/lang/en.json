@@ -28,9 +28,10 @@
     "exclusive_use" : "QR CODE FOR EXCLUSIVE USE FOR CUSTOMS VALIDATION",
     "note" : "Note:",
     "email_generated_automatically" : "This email is generated automatically by the system, please do not reply to this message.",
-    "not_have_permission" : "You don't have permission to login.",
-    "password_mismatch" : "Password mismatch.",
-    "user_does_not_exist" : "User does not exist.",
-    "current_password_is_not_correct." : "The current password isn't correct.",
-    "user_account_deactivated" : "User account deactivated."
+    "not_have_permission" : "You don't have permission to login",
+    "password_mismatch" : "Password mismatch",
+    "user_does_not_exist" : "User does not exist",
+    "current_password_is_not_correct" : "The current password isn't correct",
+    "user_account_deactivated" : "User account deactivated",
+    "disabled_user" : "Disabled user"
 }

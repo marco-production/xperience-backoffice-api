@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Api;
+namespace App\Http\Controllers\Api\User;
 
 use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\DB;
 class PermissionController extends Controller
 {
     /**
-     * Class constructor.
+     * Constructor method
      */
     public function __construct()
     {
@@ -52,7 +52,7 @@ class PermissionController extends Controller
             'name' => 'required|string|max:50|unique:roles'
         ]);
 
-        if($validator->fails()) return response(['errors' => $validator->errors()->all()], 422);
+        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 422);
 
         $role = Role::create(['name' => $request->input('name')]);
         return response()->json($role, 200);
@@ -109,9 +109,9 @@ class PermissionController extends Controller
             'permissions' => 'nullable|array'
         ]);
 
-        if($validator->fails()) return response(['errors' => $validator->errors()->all()], 422);
+        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 422);
 
-        $role = Role::find($id);
+        $role = Role::findOrFail($id);
 
         if($role){
             $role->update(['name' => $request->name]);

@@ -3,25 +3,25 @@
 namespace App\Http\Controllers\Api\Eticket;
 
 use App\Http\Controllers\Controller;
-use App\Models\Eticket\Traveler;
 use App\Http\Controllers\Api\GeolocationController;
 use Carbon\Carbon;
-use Illuminate\Support\Facades\Auth;
 use App\Http\Requests\StoreTravelerRequest;
 use App\Http\Requests\UpdateTravelerRequest;
+use App\Models\Eticket\Traveler;
+use App\Models\User;
 
 class TravelerController extends Controller
 {
     /**
-     * Class constructor.
+     * Constructor method
      */
     public function __construct()
     {
-        $this->middleware('permission:traveler.index.app')->only('index');
-        $this->middleware('permission:traveler.create.app')->only('store');
-        $this->middleware('permission:traveler.show.app')->only('show');
-        $this->middleware('permission:traveler.update.app')->only('update');
-        $this->middleware('permission:traveler.delete.app')->only('destroy');
+        $this->middleware('permission:traveler.index')->only('index');
+        $this->middleware('permission:traveler.create')->only('store');
+        $this->middleware('permission:traveler.show')->only('show');
+        $this->middleware('permission:traveler.update')->only('update');
+        $this->middleware('permission:traveler.delete')->only('destroy');
     }
 
     /**
@@ -31,16 +31,7 @@ class TravelerController extends Controller
      */
     public function index()
     {
-        $travelers = Traveler::where('user_id', Auth::user()->id)->with([
-            'relationship', 
-            'occupation', 
-            'civilStatus', 
-            'birthPlace', 
-            'residentialCountry', 
-            'nationality', 
-            'sector' => ['municipality' => ['province']],
-            'city'])->get();
-
+        $travelers = Traveler::All();
         return response()->json($travelers, 200);
     }
 
@@ -53,10 +44,10 @@ class TravelerController extends Controller
     public function store(StoreTravelerRequest $request)
     {
         $isPrincipal = false;
-        $auth = Auth::user();
+        $user = User::findOrFail($request->user_id);
         
         // Verify if this is the principal traveler
-        if(Traveler::where('user_id', $auth->id)->count() == 0) { $isPrincipal = true; }
+        if(Traveler::where('user_id', $user->id)->count() == 0) { $isPrincipal = true; }
 
         $geolocationController = new GeolocationController();
 
@@ -67,24 +58,15 @@ class TravelerController extends Controller
         $request->merge(['relationship_id' => $isPrincipal ? 5 : $request->relationship_id]);
         $request->merge(['street_address' => $request->filled('street_address') ? $request->street_address : $request->permanent_address]);
         $request->merge(['principal' => $isPrincipal]);
-        $request->merge(['user_id' => $auth->id]);
+        $request->merge(['user_id' => $user->id]);
 
         // Create traveler
         $traveler = Traveler::create($request->toArray());
 
         /// Update country of user if the principal es distint
-        if($isPrincipal && $traveler->residential_country_id != $auth->country_id){
-            $auth->update(['country_id' => $traveler->residential_country_id]);
+        if($isPrincipal && $traveler->residential_country_id != $user->country_id){
+            $user->update(['country_id' => $traveler->residential_country_id]);
         }
-
-        $traveler->relationship;
-        $traveler->occupation;
-        $traveler->civilStatus;
-        $traveler->birthPlace;
-        $traveler->nationality;
-        $traveler->residentialCountry;
-        $traveler->city;
-        if($traveler->sector_id != null) $traveler->sector->municipality->province;
 
         return response()->json($traveler, 201);
     }
@@ -97,15 +79,6 @@ class TravelerController extends Controller
      */
     public function show(Traveler $traveler)
     {
-        $traveler->relationship;
-        $traveler->occupation;
-        $traveler->civilStatus;
-        $traveler->birthPlace;
-        $traveler->nationality;
-        $traveler->residentialCountry;
-        $traveler->city;
-        if($traveler->sector_id != null) $traveler->sector->municipality->province;
-
         return response()->json($traveler, 200);
     }
 
@@ -143,20 +116,11 @@ class TravelerController extends Controller
         ]);
 
         /// Update country of user if the principal es distint
-        if($traveler->principal && $traveler->residential_country_id != Auth::user()->country_id){
-            Auth::user()->update([
-                'country_id' => $traveler->residential_country_id
-            ]);
-        }
+        $user = User::find($traveler->user_id);
 
-        $traveler->relationship;
-        $traveler->occupation;
-        $traveler->civilStatus;
-        $traveler->birthPlace;
-        $traveler->nationality;
-        $traveler->residentialCountry;
-        $traveler->city;
-        if($traveler->sector_id != null) $traveler->sector->municipality->province;
+        if($traveler->principal && $traveler->residential_country_id != $user->country_id){
+            $user->update(['country_id' => $traveler->residential_country_id]);
+        }
 
         return response()->json($traveler, 200);
     }

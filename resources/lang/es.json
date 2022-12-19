@@ -28,9 +28,10 @@
     "exclusive_use" : "CÓDIGO QR DE USO EXCLUSIVO PARA VALIDACIÓN ADUANAL",
     "note" : "Nota:",
     "email_generated_automatically" : "Este correo electrónico es generado de manera automática por el sistema, por favor no responder a este mensaje.",
-    "not_have_permission" : "No tienes permiso para iniciar sesión.",
-    "password_mismatch" : "La contraseña no coincide.",
-    "user_does_not_exist" : "El usuario no existe.",
-    "current_password_is_not_correct." : "La contraseña actual no es correcta.",
-    "user_account_deactivated" : "Cuenta de usuario desactivada."
+    "not_have_permission" : "No tienes permiso para iniciar sesión",
+    "password_mismatch" : "La contraseña no coincide",
+    "user_does_not_exist" : "El usuario no existe",
+    "current_password_is_not_correct" : "La contraseña actual no es correcta",
+    "user_account_deactivated" : "Cuenta de usuario desactivada",
+    "disabled_user" : "Usuario Deshabilitado"
 }

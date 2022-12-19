@@ -69,6 +69,22 @@ class Traveler extends Model
     ];
 
     /**
+     * With relationships
+     *
+     * @var array<int, string>
+     */
+    protected $with =[
+        'relationship',
+        'occupation',
+        'civilStatus',
+        'birthPlace',
+        'residentialCountry',
+        'nationality',
+        'city',
+        'sector' => ['municipality' => ['province']]
+    ];
+
+    /**
      * The attributes that should be mutated to dates.
      *
      * @var array

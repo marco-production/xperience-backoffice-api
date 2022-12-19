@@ -3,11 +3,13 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\GeolocationController;
 use App\Http\Controllers\Api\WeakController;
-use App\Http\Controllers\Api\PermissionController;
+use App\Http\Controllers\Api\User\PermissionController;
+use App\Http\Controllers\Api\User\UserController;
 use App\Http\Controllers\Api\Auth\AuthController;
 use App\Http\Controllers\Api\Auth\AuthUserController;
 use App\Http\Controllers\Api\Eticket\TravelerController;
 use App\Http\Controllers\Api\Eticket\EticketController;
+use App\Http\Controllers\WeakEntity\AirlineController;
 
 /*
 |--------------------------------------------------------------------------
@@ -57,14 +59,17 @@ Route::group(['middleware' => ['cors', 'json.response']], function () {
 
         //API resource routes
         Route::apiResources([
+            'users'     => UserController::class,
             'roles'     => PermissionController::class,
             'travelers' => TravelerController::class,
             'etickets'  => EticketController::class,
+            'airlines'  => AirlineController::class,
         ]);
 
         //Geolocation routes
         Route::controller(GeolocationController::class)->group(function () {
             Route::get('/country/{id?}', 'getCountry');
+            Route::get('/country-active', 'getActiveCountry');
             Route::get('/city/{iso?}', 'getCitiesByIso');
         });
 

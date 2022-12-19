@@ -188,13 +188,6 @@ class PermissionSeeder extends Seeder
         ]);
 
         Permission::create([
-            'name' => 'eticket.show',
-            'alias' => 'Show eticket',
-            'group' => 'Etickets',
-            'guard_name' => 'api'
-        ]);
-
-        Permission::create([
             'name' => 'eticket.show.last',
             'alias' => 'Show last eticket',
             'group' => 'Etickets',
@@ -208,41 +201,226 @@ class PermissionSeeder extends Seeder
             'guard_name' => 'api'
         ]);
 
-        // Update profile
+        /* Hotels */
         Permission::create([
-            'name' => 'profile.update',
-            'alias' => 'Update profile',
-            'group' => 'Profile',
-            'guard_name' => 'api'
-        ]);
-
-        //Other
-        Permission::create([
-            'name' => 'user.deletion.reasons',
-            'alias' => 'User deletion reasons',
-            'group' => 'Back office',
+            'name' => 'hotel.index',
+            'alias' => 'Hotel list',
+            'group' => 'Hotels',
             'guard_name' => 'api'
         ]);
 
         Permission::create([
-            'name' => 'user.logs',
-            'alias' => 'User Account Deletion Reasons',
-            'group' => 'Back office',
+            'name' => 'hotel.create',
+            'alias' => 'Create Hotel',
+            'group' => 'Hotels',
+            'guard_name' => 'api'
+        ]);
+
+        Permission::create([
+            'name' => 'hotel.show',
+            'alias' => 'Show Hotel',
+            'group' => 'Hotels',
+            'guard_name' => 'api'
+        ]);
+
+        Permission::create([
+            'name' => 'hotel.update',
+            'alias' => 'Update Hotel',
+            'group' => 'Hotels',
+            'guard_name' => 'api'
+        ]);
+
+        Permission::create([
+            'name' => 'hotel.delete',
+            'alias' => 'Delete Hotel',
+            'group' => 'Hotels',
+            'guard_name' => 'api'
+        ]);
+
+        /* Ports */
+        Permission::create([
+            'name' => 'port.index',
+            'alias' => 'Port list',
+            'group' => 'Ports',
+            'guard_name' => 'api'
+        ]);
+
+        Permission::create([
+            'name' => 'port.create',
+            'alias' => 'Create Port',
+            'group' => 'Ports',
+            'guard_name' => 'api'
+        ]);
+
+        Permission::create([
+            'name' => 'port.show',
+            'alias' => 'Show Port',
+            'group' => 'Ports',
+            'guard_name' => 'api'
+        ]);
+
+        Permission::create([
+            'name' => 'port.update',
+            'alias' => 'Update Port',
+            'group' => 'Ports',
+            'guard_name' => 'api'
+        ]);
+
+        Permission::create([
+            'name' => 'port.delete',
+            'alias' => 'Delete Port',
+            'group' => 'Ports',
+            'guard_name' => 'api'
+        ]);
+
+        /* Airlines */
+        Permission::create([
+            'name' => 'airline.index',
+            'alias' => 'Airline list',
+            'group' => 'Airlines',
+            'guard_name' => 'api'
+        ]);
+
+        Permission::create([
+            'name' => 'airline.create',
+            'alias' => 'Create Airline',
+            'group' => 'Airlines',
+            'guard_name' => 'api'
+        ]);
+
+        Permission::create([
+            'name' => 'airline.show',
+            'alias' => 'Show Airline',
+            'group' => 'Airlines',
+            'guard_name' => 'api'
+        ]);
+
+        Permission::create([
+            'name' => 'airline.update',
+            'alias' => 'Update Airline',
+            'group' => 'Airlines',
+            'guard_name' => 'api'
+        ]);
+
+        Permission::create([
+            'name' => 'airline.delete',
+            'alias' => 'Delete Airline',
+            'group' => 'Airlines',
             'guard_name' => 'api'
         ]);
 
         // Geolocation Permission
         Permission::create([
+            'name' => 'geolocations.macro',
+            'alias' => 'Regions macro',
+            'group' => 'Geolocation',
+            'guard_name' => 'api'
+        ]);
+
+        Permission::create([
+            'name' => 'geolocations.province',
+            'alias' => 'Provinces',
+            'group' => 'Geolocation',
+            'guard_name' => 'api'
+        ]);
+
+        Permission::create([
+            'name' => 'geolocations.municipality',
+            'alias' => 'Municipalities',
+            'group' => 'Geolocation',
+            'guard_name' => 'api'
+        ]);
+
+        Permission::create([
+            'name' => 'geolocations.sector',
+            'alias' => 'Sectors',
+            'group' => 'Geolocation',
+            'guard_name' => 'api'
+        ]);
+        
+        Permission::create([
             'name' => 'geolocations.country',
-            'alias' => 'Get countries',
+            'alias' => 'Countries',
             'group' => 'Geolocation',
             'guard_name' => 'api'
         ]);
 
         Permission::create([
             'name' => 'geolocations.city',
-            'alias' => 'Get Cities',
+            'alias' => 'Cities',
             'group' => 'Geolocation',
+            'guard_name' => 'api'
+        ]);
+
+        // Elements Permission
+        Permission::create([
+            'name' => 'transportation.method.all',
+            'alias' => 'Transportation Methods',
+            'group' => 'Elements',
+            'guard_name' => 'api'
+        ]);
+
+        Permission::create([
+            'name' => 'motive.all',
+            'alias' => 'Motives',
+            'group' => 'Elements',
+            'guard_name' => 'api'
+        ]);
+
+        Permission::create([
+            'name' => 'relationship.all',
+            'alias' => 'Relationships',
+            'group' => 'Elements',
+            'guard_name' => 'api'
+        ]);
+
+        Permission::create([
+            'name' => 'civil.status.all',
+            'alias' => 'Civil Statuses',
+            'group' => 'Elements',
+            'guard_name' => 'api'
+        ]);
+        
+        Permission::create([
+            'name' => 'occupation.all',
+            'alias' => 'Occupations',
+            'group' => 'Elements',
+            'guard_name' => 'api'
+        ]);
+
+        Permission::create([
+            'name' => 'currencies.all',
+            'alias' => 'Currencies',
+            'group' => 'Elements',
+            'guard_name' => 'api'
+        ]);
+
+        /* User Logs */
+        Permission::create([
+            'name' => 'user.logs',
+            'alias' => 'Users deleted',
+            'group' => 'User logs',
+            'guard_name' => 'api'
+        ]);
+
+        Permission::create([
+            'name' => 'users.trashed',
+            'alias' => 'Accounts deactivated',
+            'group' => 'User logs',
+            'guard_name' => 'api'
+        ]);
+
+        Permission::create([
+            'name' => 'user.deletion.reasons',
+            'alias' => 'User deletion reasons',
+            'group' => 'User logs',
+            'guard_name' => 'api'
+        ]);
+
+        Permission::create([
+            'name' => 'google.analytics',
+            'alias' => 'Google Analytics',
+            'group' => 'User logs',
             'guard_name' => 'api'
         ]);
 
@@ -256,7 +434,6 @@ class PermissionSeeder extends Seeder
         ]);
 
         Role::find(3)->givePermissionTo([
-            'profile.update',
             'traveler.index.app',
             'traveler.create.app',
             'traveler.show.app',
@@ -264,9 +441,6 @@ class PermissionSeeder extends Seeder
             'traveler.delete.app',
             'eticket.show.last',
             'eticket.create',
-            'geolocations.country',
-            'geolocations.city',
         ]);
-
     }
 }

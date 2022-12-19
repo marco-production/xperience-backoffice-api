@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Api\Auth;
 use App\Models\User;
 use App\Models\Eticket\Eticket;
 use App\Models\Eticket\Traveler;
+use Spatie\Permission\Models\Permission;
 use App\Models\UserEntities\EmailVerification;
 use App\Models\UserEntities\UserLogs;
 use App\Http\Controllers\Api\GeolocationController;
@@ -27,24 +28,24 @@ class AuthUserController extends Controller
     private $locales = ['en', 'es'];
 
     /**
-     * Class constructor.
-     */
-    public function __construct()
-    {
-        $this->middleware('permission:profile.update')->only('update');
-    }
-    
-    
-    /**
      * Get Auth user
      * 
      * @return \Illuminate\Http\Response
      */
     public function authUser()
     {
+        // Get Auth user
         $user = Auth::user();
+
+        // Get permissions name
+        $permissions = Permission::withWhereHas('roles', function($query) {
+            $query->whereIn('id', [2, 3]);
+        })->pluck('name');
+
         $user->country;
         $user['roles'] = $user->getRoleNames();
+        $user['permissions'] = $permissions;
+
         return response()->json($user, 200);
     }
 
@@ -68,7 +69,7 @@ class AuthUserController extends Controller
             'current_password.current_password' => "The current password isn't correct."
         ]);
 
-        if($validator->fails()) return response(['errors' => $validator->errors()->all()], 400);
+        if($validator->fails()) return response(['errors' => $validator->errors()->all()], 422);
 
         $auth = Auth::user();
         $mainTraveler = Traveler::where('user_id', $auth->id)->where('principal',true)->first();
@@ -143,7 +144,7 @@ class AuthUserController extends Controller
             'current_password.current_password' => __('current_password_is_not_correct')
         ]);
 
-        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 400);
+        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 422);
 
         // Change locale
         if($request->has('locale') && in_array($request->locale, $this->locales))
@@ -167,7 +168,7 @@ class AuthUserController extends Controller
             'locale' => 'nullable|string|min:2|max:2'
         ]);
 
-        if($validator->fails()) return response(['errors' => $validator->errors()->all()], 400);
+        if($validator->fails()) return response(['errors' => $validator->errors()->all()], 422);
         
         $auth = Auth::user();
         $usersEmail = User::where('email', $request->email)->where('email', '!=', $auth->email)->count();
@@ -211,7 +212,7 @@ class AuthUserController extends Controller
             'code' => 'required|numeric',
         ]);
 
-        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 400);
+        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 422);
 
         $auth = Auth::user();
 
@@ -238,7 +239,7 @@ class AuthUserController extends Controller
             'phone_number' => 'required|string',
         ]);
 
-        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 400);
+        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 422);
 
         // Verify if the phone number is different to current
         if(Auth::user()->phone_number == $request->phone_number)
@@ -267,7 +268,7 @@ class AuthUserController extends Controller
             'code' => 'required|numeric'
         ]);
 
-        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 400);
+        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 422);
 
         //Validate SMS code
         $verification = $this->verifySMSCode($request->phone_number, $request->code);
@@ -293,7 +294,7 @@ class AuthUserController extends Controller
             'password' => 'required|string|min:6',
         ]);
 
-        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 400);
+        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 422);
 
         $auth = User::onlyTrashed()->firstWhere('email', $request->email);
 
@@ -346,7 +347,7 @@ class AuthUserController extends Controller
             'reason_id' => 'nullable|integer',
         ]);
 
-        if($validator->fails()) return response(['errors' => $validator->errors()->all()], 422);
+        if($validator->fails()) return response()->json(['errors' => $validator->errors()->all()], 422);
 
         // Get Auth
         $user = Auth::user();

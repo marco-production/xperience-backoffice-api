@@ -45,7 +45,8 @@ class StoreTravelerRequest extends FormRequest
             'residence_number' => 'nullable|string',
             'civil_status_id' => 'required|integer',
             'sector_id' => 'nullable|integer',
-            'street_address' => 'nullable|string'
+            'street_address' => 'nullable|string',
+            'user_id' => 'required|integer',
         ];
     }
 }

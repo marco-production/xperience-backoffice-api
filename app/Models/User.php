@@ -47,6 +47,15 @@ class User extends Authenticatable
     ];
 
     /**
+     * Always with that relationships
+     *
+     * @var array<int, string>
+     */
+    protected $with =[
+        'country'
+    ];
+
+    /**
      * The attributes that should be cast.
      *
      * @var array<string, string>
@@ -55,7 +64,9 @@ class User extends Authenticatable
         'country_id' => 'integer',
         'is_verified' => 'boolean',
         'active' => 'boolean',
-        'deleted_at' => 'datetime'
+        'deleted_at' => 'datetime',
+        'created_at' => 'datetime:d-m-Y H:00',
+        'updated_at' => 'datetime:d-m-Y H:00'
     ];
 
     /**
